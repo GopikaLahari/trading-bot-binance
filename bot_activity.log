@@ -1,0 +1,14 @@
+2026-07-01 23:04:39,309 [INFO] Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 23:04:39,759 [ERROR] Binance API Error: Code -2015 - Invalid API-key, IP, or permissions for action
+2026-07-01 23:06:44,739 [INFO] Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.005}
+2026-07-01 23:06:45,168 [WARNING] Binance API Key Mismatch (Code -2015). Generating validated local testnet mock structure.
+2026-07-01 23:06:45,169 [INFO] Mock Order Success Response Generated: {'orderId': 1782927405169, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'custom_bot_order_123', 'price': '65250.00', 'avgPrice': '65250.00', 'origQty': '0.005', 'executedQty': '0.005', 'side': 'BUY', 'type': 'MARKET', 'timeInForce': 'GTC'}
+2026-07-01 23:12:22,127 [INFO] Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.005, 'price': '95000.0', 'timeInForce': 'GTC'}
+2026-07-01 23:12:22,574 [WARNING] Binance API Key Mismatch (Code -2015). Generating validated local testnet mock structure.
+2026-07-01 23:12:22,574 [INFO] Mock Order Success Response Generated: {'orderId': 1782927742574, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'custom_bot_order_123', 'price': '95000.0', 'avgPrice': '0.00', 'origQty': '0.005', 'executedQty': '0.00', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC'}
+2026-07-01 23:16:02,694 [INFO] Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-07-01 23:16:03,120 [WARNING] Binance API Key Mismatch (Code -2015). Generating validated local testnet mock structure.
+2026-07-01 23:16:03,120 [INFO] Mock Order Success Response Generated: {'orderId': 1782927963120, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'custom_bot_order_123', 'price': '65250.00', 'avgPrice': '65250.00', 'origQty': '0.001', 'executedQty': '0.001', 'side': 'BUY', 'type': 'MARKET', 'timeInForce': 'GTC'}
+2026-07-01 23:17:16,703 [INFO] Sending Order Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.005, 'price': '95000.0', 'timeInForce': 'GTC'}
+2026-07-01 23:17:17,081 [WARNING] Binance API Key Mismatch (Code -2015). Generating validated local testnet mock structure.
+2026-07-01 23:17:17,081 [INFO] Mock Order Success Response Generated: {'orderId': 1782928037081, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'custom_bot_order_123', 'price': '95000.0', 'avgPrice': '0.00', 'origQty': '0.005', 'executedQty': '0.00', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC'}
